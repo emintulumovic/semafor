@@ -1,31 +1,16 @@
-# 🚦 Semafor
+# Semafor
 
-Simulacija saobraćajnog semafora na raskrsnici, izrađena u Flowcode-u.
+Simulacija semafora na raskrsnici urađena u Flowcode-u. Semafor za vozila i semafor za pješake rade u paru i izmjenjuju se automatski.
 
-## 📋 Opis
+## Kako radi
 
-Projekat prikazuje kako funkcioniše koordinacija između semafora za vozila i semafora za pješake. Dok vozila imaju pravo prolaza (zeleno), pješacima je zabranjeno prelaziti (crveno), i obrnuto — sistem radi automatski i ciklično.
+Sistem prolazi kroz faze crveno, žuto i zeleno za vozila, dok pješački semafor reaguje suprotno. Sve se odvija u petlji bez ručnog upravljanja.
 
-## 🚗 Semafor za vozila
-
-| Faza | Značenje |
-|------|----------|
-| 🔴 Crveno | Zabranjen prolaz |
-| 🟡 Žuto | Pripremiti se za polazak |
-| 🟢 Zeleno | Slobodan prolaz |
-
-## 🚶 Semafor za pješake
-
-| Faza | Značenje |
-|------|----------|
-| 🔴 Crveno | Zabranjeno prelaženje |
-| 🟢 Zeleno | Dozvoljeno prelaženje |
-
-## 🛠️ Tehnologije
+## Tehnologije
 
 - Flowcode
 - PIC mikrokontroler
 
-## 👤 Autor
+## Autor
 
-Emin Tulumović — ETŠ Tuzla
+Emin Tulumović, ETŠ Tuzla
